@@ -1,0 +1,1 @@
+function animated_java:x1miya/zzzzzzzz/animations/animation.player.idle/pause_as_root

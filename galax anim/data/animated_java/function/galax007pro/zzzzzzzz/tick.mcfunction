@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.galax007pro.root] run function animated_java:galax007pro/zzzzzzzz/tick_as_root

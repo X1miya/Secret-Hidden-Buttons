@@ -1,0 +1,2 @@
+tellraw @a "<X1miya> Эта карта пережила производственный ад, я вообще думал что обновление уже не выйдет, но раз вы играете в него, значит все таки оно вышло!"
+execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 5

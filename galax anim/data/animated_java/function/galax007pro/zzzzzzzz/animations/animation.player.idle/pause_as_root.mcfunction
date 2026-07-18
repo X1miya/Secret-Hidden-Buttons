@@ -1,0 +1,1 @@
+tag @s remove aj.galax007pro.animation.animation.player.idle

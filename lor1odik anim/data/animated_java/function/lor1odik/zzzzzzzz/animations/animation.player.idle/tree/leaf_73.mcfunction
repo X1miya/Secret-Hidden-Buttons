@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:lor1odik/zzzzzzzz/animations/animation.player.idle/tree/leaf_73_as_bone

@@ -1,0 +1,2 @@
+tellraw @a "<X1miya> Чтож, мне нету ничего больше, чтобы тебе сказать. Так-что спасибо за прохождение этой карты)"
+execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 5

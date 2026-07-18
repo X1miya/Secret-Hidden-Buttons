@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..200 run function animated_java:endermanshikh/zzzzzzzz/animations/animation.player.idle/tree/branch_0_200

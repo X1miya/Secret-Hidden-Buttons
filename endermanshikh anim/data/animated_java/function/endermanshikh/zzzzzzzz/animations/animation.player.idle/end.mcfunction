@@ -1,0 +1,3 @@
+execute if score @s aj.endermanshikh.animation.animation.player.idle.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:endermanshikh/zzzzzzzz/animations/animation.player.idle/end_loop
+execute if score @s aj.endermanshikh.animation.animation.player.idle.loop_mode = $aj.loop_mode.once aj.i run function animated_java:endermanshikh/animations/animation.player.idle/stop
+execute if score @s aj.endermanshikh.animation.animation.player.idle.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:endermanshikh/animations/animation.player.idle/pause

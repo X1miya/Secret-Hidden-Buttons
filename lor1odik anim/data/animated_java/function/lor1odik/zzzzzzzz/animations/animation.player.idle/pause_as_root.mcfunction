@@ -1,0 +1,1 @@
+tag @s remove aj.lor1odik.animation.animation.player.idle

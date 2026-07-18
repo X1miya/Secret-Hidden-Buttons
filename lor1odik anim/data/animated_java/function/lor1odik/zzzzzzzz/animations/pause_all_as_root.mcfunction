@@ -1,0 +1,1 @@
+function animated_java:lor1odik/zzzzzzzz/animations/animation.player.idle/pause_as_root

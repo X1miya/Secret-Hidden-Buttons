@@ -1,0 +1,2 @@
+tellraw @a "<X1miya> Или кодеру(Тоесть мне), нету времени, чтобы закодерить карту или мне просто иногда было лень и я не хотел её кодить..."
+execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 5

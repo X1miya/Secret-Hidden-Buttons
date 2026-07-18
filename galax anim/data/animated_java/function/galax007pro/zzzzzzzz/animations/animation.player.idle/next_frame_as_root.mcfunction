@@ -1,0 +1,1 @@
+function animated_java:galax007pro/zzzzzzzz/animations/animation.player.idle/tick_animation

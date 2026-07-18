@@ -1,0 +1,2 @@
+scoreboard players set @s aj.galax007pro.rig_loaded 1
+execute unless score @s aj.galax007pro.export_version = aj.galax007pro.export_version aj.i at @s run function animated_java:galax007pro/zzzzzzzz/mark_outdated_rig
