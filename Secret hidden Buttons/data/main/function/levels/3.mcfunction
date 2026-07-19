@@ -8,7 +8,7 @@ setblock -30 4 -52 minecraft:stone_button[face=floor]
 setblock 31 8 -39 minecraft:stone_button[facing=east]
 
 tp @a 44 6 -58 -55 0
-spawnpoint @a 44 6 -58 -55
+spawnpoint @a 44 6 -58 -55 0
 
 time set night
 weather thunder

@@ -7,7 +7,7 @@ tellraw @a [{"text":""},{"text":"Уровень №2","bold":true,"color":"dark_
 setblock 14 5 -34 minecraft:oak_button[facing=north]
 setblock 23 9 -18 minecraft:oak_button[face=floor]
 tp @a -37 15 -45 -90 0
-spawnpoint @a -37 15 -45 -90
+spawnpoint @a -37 15 -45 -90 0
 
 time set noon
 weather rain

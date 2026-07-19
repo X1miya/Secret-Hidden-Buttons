@@ -6,7 +6,7 @@ tellraw @a [{"text":""},{"text":"Уровень №4","bold":true,"color":"dark_
 
 setblock 50 9 -53 minecraft:mangrove_button[face=ceiling]
 tp @a 36 7 -170 -55 0
-spawnpoint @a 36 7 -170 -55
+spawnpoint @a 36 7 -170 -55 0
 
 time set day
 weather rain

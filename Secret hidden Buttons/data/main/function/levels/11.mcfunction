@@ -9,7 +9,7 @@ tellraw @a [{"text":""},{"text":"Уровень №11","bold":true,"color":"dark
 setblock 116 4 -46 minecraft:crimson_button[facing=north]
 
 tp @a 104 11 -101 180 0
-spawnpoint @a 104 11 -101 180
+spawnpoint @a 104 11 -101 180 0
 scoreboard players set @a GP 0
 
 time set midnight

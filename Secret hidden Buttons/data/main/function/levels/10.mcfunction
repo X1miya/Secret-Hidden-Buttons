@@ -8,7 +8,7 @@ setblock 109 29 -71 minecraft:cherry_button[face=floor]
 setblock 126 20 -60 minecraft:oak_button[facing=east]
 
 tp @a 108 4 -50 -30 0
-spawnpoint @a 108 4 -50 -30
+spawnpoint @a 108 4 -50 -30 0
 
 time set midnight
 weather clear

@@ -7,7 +7,7 @@ tellraw @a [{"text":""},{"text":"Уровень №5","bold":true,"color":"dark_
 setblock 42 2 -166 minecraft:stone_button[facing=south]
 setblock 25 8 -178 minecraft:stone_button[facing=north]
 tp @a 82 4 -120 90 0
-spawnpoint @a 82 4 -120 90
+spawnpoint @a 82 4 -120 90 0
 
 time set noon
 weather clear

@@ -11,7 +11,7 @@ tellraw @a [{"text":""},{"text":"Уровень №12","bold":true,"color":"dark
 summon minecraft:warden 66 11 43
 
 tp @a 82 7 54 90 0
-spawnpoint @a 82 7 54 90
+spawnpoint @a 82 7 54 90 0
 
 time set midnight
 weather thunder

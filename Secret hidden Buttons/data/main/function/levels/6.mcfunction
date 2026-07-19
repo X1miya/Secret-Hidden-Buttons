@@ -6,7 +6,7 @@ tellraw @a [{"text":""},{"text":"Уровень №6","bold":true,"color":"dark_
 
 setblock 69 5 -139 minecraft:stone_button[face=floor]
 tp @a 43 4 -91 -55 0
-spawnpoint @a 43 4 -91 -55
+spawnpoint @a 43 4 -91 -55 0
 
 time set night
 weather rain
