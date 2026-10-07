@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Secret%20Hidden%20Buttons&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Header" />
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21%2B-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
-[![Version](https://img.shields.io/badge/Datapack-v2.1-blue?style=for-the-badge)](https://github.com/X1miya/Secret-Hidden-Buttons)
+[![Version](https://img.shields.io/badge/Datapack-v2.2-blue?style=for-the-badge)](https://github.com/X1miya/Secret-Hidden-Buttons)
 [![Animated Java](https://img.shields.io/badge/Rigging-Animated_Java-orange?style=for-the-badge)](https://animated-java.dev/)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 
