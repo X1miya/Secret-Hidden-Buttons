@@ -2,8 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Secret%20Hidden%20Buttons&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Header" />
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21%2B-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
-[![Version](https://img.shields.io/badge/Datapack-v2.2-blue?style=for-the-badge)](https://github.com/X1miya/Secret-Hidden-Buttons)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
+[![Version](https://img.shields.io/badge/Map-v2.2_(EN_%2B_RU)-blue?style=for-the-badge)](https://github.com/X1miya/Secret-Hidden-Buttons)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Worlds-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/worlds/secret-hidden-buttons)
+[![Planet Minecraft](https://img.shields.io/badge/Planet_Minecraft-Map-2ECC71?style=for-the-badge)](https://www.planetminecraft.com/project/secret-hidden-buttons-1-20-4/)
+[![Minecraft Inside](https://img.shields.io/badge/Minecraft_Inside-RU-brightgreen?style=for-the-badge)](https://minecraft-inside.ru/166663/)
 [![Animated Java](https://img.shields.io/badge/Rigging-Animated_Java-orange?style=for-the-badge)](https://animated-java.dev/)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 
@@ -45,10 +48,15 @@
 
 ---
 
-### 🚀 Установка
+### 🚀 Установка и загрузка
 
-1. Скачайте нужные папки датапаков (или весь репозиторий архивом).
-2. Поместите папку `Secret hidden Buttons` и папки анимаций `* anim` в директорию вашего мира:
+* **Готовые миры (Minecraft 1.21.11, EN + RU):**
+  * [CurseForge Worlds](https://www.curseforge.com/minecraft/worlds/secret-hidden-buttons)
+  * [Planet Minecraft](https://www.planetminecraft.com/project/secret-hidden-buttons-1-20-4/)
+  * [Minecraft Inside (RU)](https://minecraft-inside.ru/166663/)
+
+1. Скачайте готовую карту с CurseForge / Planet Minecraft / Minecraft Inside **или** соберите вручную из этого репозитория.
+2. Если ставите датапаки вручную, поместите папку `Secret hidden Buttons` и папки анимаций `* anim` в директорию вашего мира:
    ```text
    .minecraft/saves/<Ваш_Мир>/datapacks/
    ```
