@@ -1,0 +1,2 @@
+tellraw @a "<X1miya> Что ж... Если вам карта понравилась, то я буду рад если вы подпишитесь на канал студии, а так-же на мой. Мне будет очень приятно. Возможно вам понравятся там какие-то видео)"
+execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 5

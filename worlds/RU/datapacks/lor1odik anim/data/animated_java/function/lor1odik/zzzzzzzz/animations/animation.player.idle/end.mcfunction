@@ -1,0 +1,3 @@
+execute if score @s aj.lor1odik.animation.animation.player.idle.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:lor1odik/zzzzzzzz/animations/animation.player.idle/end_loop
+execute if score @s aj.lor1odik.animation.animation.player.idle.loop_mode = $aj.loop_mode.once aj.i run function animated_java:lor1odik/animations/animation.player.idle/stop
+execute if score @s aj.lor1odik.animation.animation.player.idle.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:lor1odik/animations/animation.player.idle/pause

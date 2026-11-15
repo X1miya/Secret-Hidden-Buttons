@@ -1,0 +1,1 @@
+function animated_java:lor1odik/zzzzzzzz/animations/animation.player.idle/tick_animation

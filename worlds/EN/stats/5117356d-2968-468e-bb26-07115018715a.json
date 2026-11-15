@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:egg": 1
+    },
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 230,
+      "minecraft:time_since_rest": 231023,
+      "minecraft:walk_one_cm": 41840,
+      "minecraft:leave_game": 6,
+      "minecraft:walk_under_water_one_cm": 2279,
+      "minecraft:interact_with_lectern": 5,
+      "minecraft:play_time": 231023,
+      "minecraft:jump": 294,
+      "minecraft:time_since_death": 231023,
+      "minecraft:open_barrel": 5,
+      "minecraft:sprint_one_cm": 39171,
+      "minecraft:open_chest": 1,
+      "minecraft:fall_one_cm": 5678,
+      "minecraft:swim_one_cm": 423,
+      "minecraft:total_world_time": 259270,
+      "minecraft:fly_one_cm": 805976,
+      "minecraft:walk_on_water_one_cm": 1260,
+      "minecraft:crouch_one_cm": 670,
+      "minecraft:sneak_time": 2162
+    },
+    "minecraft:used": {
+      "minecraft:crying_obsidian": 21,
+      "minecraft:writable_book": 2,
+      "minecraft:barrier": 4,
+      "minecraft:stone_button": 1
+    }
+  },
+  "DataVersion": 4671
+}

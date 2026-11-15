@@ -1,0 +1,3 @@
+title @a title ["",{"text":"1","bold":true,"obfuscated":true,"color":"dark_red"},{"text":"\u041a\u043e\u0434\u0435\u0440\u044b","bold":true,"color":"dark_green"},{"text":"1","bold":true,"obfuscated":true,"color":"dark_red"}]
+title @a subtitle ["",{"text":"1","obfuscated":true,"color":"dark_green"},{"text":"X1miya","color":"dark_red"},{"text":"1","obfuscated":true,"color":"dark_green"}]
+schedule function main:basic/titles/builders 5s

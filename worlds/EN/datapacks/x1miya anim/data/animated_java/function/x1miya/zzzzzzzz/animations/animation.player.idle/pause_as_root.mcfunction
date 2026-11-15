@@ -1,0 +1,1 @@
+tag @s remove aj.x1miya.animation.animation.player.idle

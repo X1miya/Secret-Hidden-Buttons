@@ -1,0 +1,2 @@
+scoreboard players set @s aj.endermanshikh.rig_loaded 1
+execute unless score @s aj.endermanshikh.export_version = aj.endermanshikh.export_version aj.i at @s run function animated_java:endermanshikh/zzzzzzzz/mark_outdated_rig

@@ -1,0 +1,2 @@
+tellraw @a "<X1miya> Всё же, она вышла! Надеюсь она вам понравилась. Сейчас пишу этот диалог и в шоке, что все позади..."
+execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 5

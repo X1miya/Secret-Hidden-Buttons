@@ -1,0 +1,2 @@
+tellraw @a "<endermanshikh> А и еще спасибо Химии за то, что научил меня строить намного лучше чем я умел перед приходом в студию."
+execute as @a at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 5

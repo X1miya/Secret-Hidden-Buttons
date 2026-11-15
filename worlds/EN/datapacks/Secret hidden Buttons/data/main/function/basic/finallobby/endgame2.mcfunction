@@ -1,0 +1,30 @@
+title @a title "Σ"
+title @a subtitle {"bold":true,"color":"#00aa00","text":"CONGRATULATIONS!"}
+execute as @a[scores={SP=0}] run tellraw @s [{"text":"<"},{"bold":true,"color":"dark_green","obfuscated":true,"text":"???"},{"bold":false,"obfuscated":false,"text":">"},{"bold":false,"obfuscated":false,"text":" Congratulations, you completed the map. But you found "},{"bold":true,"italic":true,"score":{"name":"*","objective":"SP"},"underlined":true},{"bold":false,"italic":false,"text":" easter eggs out of 10!","underlined":false}]
+execute as @a[scores={SP=1}] run tellraw @s [{"text":"<"},{"bold":true,"color":"dark_green","obfuscated":true,"text":"???"},{"bold":false,"obfuscated":false,"text":">"},{"bold":false,"obfuscated":false,"text":" Congratulations, you completed the map. You found "},{"bold":true,"italic":true,"score":{"name":"*","objective":"SP"},"underlined":true},{"bold":false,"italic":false,"text":" easter egg out of 10!","underlined":false}]
+execute as @a[scores={SP=2..4}] run tellraw @s [{"text":"<"},{"bold":true,"color":"dark_green","obfuscated":true,"text":"???"},{"bold":false,"obfuscated":false,"text":">"},{"bold":false,"obfuscated":false,"text":" Congratulations, you completed the map. You found "},{"bold":true,"italic":true,"score":{"name":"*","objective":"SP"},"underlined":true},{"bold":false,"italic":false,"text":" easter eggs out of 10!","underlined":false}]
+execute as @a[scores={SP=5..9}] run tellraw @s [{"text":"<"},{"bold":true,"color":"dark_green","obfuscated":true,"text":"???"},{"bold":false,"obfuscated":false,"text":">"},{"bold":false,"obfuscated":false,"text":" Congratulations, you completed the map. You found "},{"bold":true,"italic":true,"score":{"name":"*","objective":"SP"},"underlined":true},{"bold":false,"italic":false,"text":" easter eggs out of 10!","underlined":false}]
+
+execute as @a[scores={SP=0}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> How could you find 0 easter eggs?!??"}]
+execute as @a[scores={SP=0}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> I am disappointed in you"}]
+execute as @a[scores={SP=1}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> How could you find only 1 easter egg?!??"}]
+execute as @a[scores={SP=1}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> I am disappointed in you"}]
+execute as @a[scores={SP=2}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> 2 easter eggs...."}]
+execute as @a[scores={SP=2}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> I am terribly disappointed in you"}]
+execute as @a[scores={SP=3}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> Well, that's better than nothing...."}]
+execute as @a[scores={SP=3}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> I thought you would find more... I am disappointed..."}]
+execute as @a[scores={SP=4}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> You could have done better! 4 easter eggs is nothing"}]
+execute as @a[scores={SP=4}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> I thought you could find more... I was mistaken..."}]
+execute as @a[scores={SP=5}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> Not bad, but that's not all you are capable of!"}]
+execute as @a[scores={SP=5}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> You should have found all 10 easter eggs!"}]
+execute as @a[scores={SP=6}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> Good result."}]
+execute as @a[scores={SP=6..7}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> But you could have found all 10 easter eggs!"}]
+execute as @a[scores={SP=7}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> But you should have been more attentive..."}]
+execute as @a[scores={SP=8}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> Almost!"}]
+execute as @a[scores={SP=8}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> You were so close... I-I.. Ahem, you should be more attentive..."}]
+execute as @a[scores={SP=9}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> Excellent!"}]
+execute as @a[scores={SP=9}] run tellraw @s [{"text":""},{"text":"<"},{"color":"#00aa00","obfuscated":true,"bold":true,"text":"???"},{"text":"> Only the last one left to find in this lobby. Then you can unlock the secret level. Good luck!"}]
+execute at @a run summon firework_rocket ~ ~5 ~5 {FireworksItem:{id:"firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"creeper",has_flicker:true,has_trail:true,colors:[I;3997440],fade_colors:[I;479748]}]}}}}
+execute at @a run summon firework_rocket ~ ~5 ~5 {FireworksItem:{id:"firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"creeper",has_flicker:true,has_trail:true,colors:[I;3997440],fade_colors:[I;479748]}]}}}}
+execute at @a run summon firework_rocket ~5 ~5 ~ {FireworksItem:{id:"firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"creeper",has_flicker:true,has_trail:true,colors:[I;3997440],fade_colors:[I;479748]}]}}}}
+schedule function main:basic/titles/x1miyastudio 5s

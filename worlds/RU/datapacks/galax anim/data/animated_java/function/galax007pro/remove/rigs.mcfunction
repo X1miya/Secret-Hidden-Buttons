@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=aj.galax007pro.root] run function animated_java:galax007pro/zzzzzzzz/remove/as_root

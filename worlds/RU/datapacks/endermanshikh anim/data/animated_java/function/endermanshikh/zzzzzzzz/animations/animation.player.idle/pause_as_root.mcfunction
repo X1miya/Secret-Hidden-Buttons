@@ -1,0 +1,1 @@
+tag @s remove aj.endermanshikh.animation.animation.player.idle

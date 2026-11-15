@@ -1,0 +1,1 @@
+function animated_java:galax007pro/zzzzzzzz/animations/animation.player.idle/pause_as_root
