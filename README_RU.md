@@ -1,0 +1,108 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF88,100:062E1A&height=180&section=header&text=Secret%20Hidden%20Buttons&fontSize=42&fontColor=ffffff&fontAlignY=40" width="100%" alt="Header" />
+
+<p align="center">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/Language-English-0D1117?style=flat-square&logo=googletranslate&logoColor=white" alt="English Version" />
+  </a>
+  <img src="https://img.shields.io/badge/%D0%AF%D0%B7%D1%8B%D0%BA-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-00FF88?style=flat-square" alt="Русский" />
+</p>
+
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
+[![Version](https://img.shields.io/badge/Карта-v2.2_(EN_%2B_RU)-blue?style=for-the-badge)](https://github.com/X1miya/Secret-Hidden-Buttons/releases)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Миры-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/worlds/secret-hidden-buttons)
+[![GitHub Release](https://img.shields.io/badge/GitHub-Релизы-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/X1miya/Secret-Hidden-Buttons/releases)
+[![Planet Minecraft](https://img.shields.io/badge/Planet_Minecraft-Карта-2ECC71?style=for-the-badge)](https://www.planetminecraft.com/project/secret-hidden-buttons-1-20-4/)
+[![Minecraft Inside](https://img.shields.io/badge/Minecraft_Inside-RU-brightgreen?style=for-the-badge)](https://minecraft-inside.ru/166663/)
+[![Animated Java](https://img.shields.io/badge/Риги-Animated_Java-orange?style=for-the-badge)](https://animated-java.dev/)
+[![Studio](https://img.shields.io/badge/Студия-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
+
+<p align="center">
+  <b>Комплекс датапаков и кастомных моделей для приключенческой карты «Secret Hidden Buttons».</b><br/>
+  Поиск секретных кнопок, проработанный сюжет, интерактивные диалоги и анимации персонажей.
+</p>
+
+</div>
+
+---
+
+### 🌟 Особенности проекта
+
+* 🔍 **Уровни с поиском кнопок** — комплексные головоломки с уникальной логикой на каждом этапе.
+* 🎭 **Анимации персонажей (Animated Java)** — в репозиторий включены 5 отдельных датапаков с ригами и анимациями для персонажей:
+  * `x1miya anim`
+  * `endermanshikh anim`
+  * `galax anim`
+  * `lor1odik anim`
+  * `qweezik anim`
+* 💬 **Интерактивные диалоги** — система реплик и кат-сцен с участниками команды.
+* 🔭 **Механика подзорной трубы** — кастомное взаимодействие для поиска скрытых подсказок на дальних дистанциях.
+* 🥚 **Пасхалки и секретные комнаты** — скрытые ответвления с подсказками и наградами.
+
+---
+
+### 📁 Структура репозитория
+
+```text
+├── worlds/
+│   ├── EN/                  # Готовый мир карты на английском языке (Minecraft 1.21.11)
+│   └── RU/                  # Готовый мир карты на русском языке (Minecraft 1.21.11)
+├── Secret hidden Buttons/   # Основной датапак карты (логика, уровни, лобби, диалоги)
+├── x1miya anim/             # Датапак анимаций X1miya
+├── endermanshikh anim/      # Датапак анимаций Endermanshikh
+├── galax anim/              # Датапак анимаций Galax
+├── lor1odik anim/           # Датапак анимаций Lor1odik
+├── qweezik anim/            # Датапак анимаций Qweezik
+└── spyglass.json            # Настройки механики подзорной трубы
+```
+
+---
+
+### 🚀 Установка и загрузка
+
+* **Готовые миры (Minecraft 1.21.11, EN + RU):**
+  * [GitHub Releases (v2.2.0)](https://github.com/X1miya/Secret-Hidden-Buttons/releases/tag/v2.2.0) — архивы `Secret_Hidden_Buttons_v2.2_EN.zip` и `Secret_Hidden_Buttons_v2.2_RU.zip`
+  * [CurseForge Worlds](https://www.curseforge.com/minecraft/worlds/secret-hidden-buttons)
+  * [Planet Minecraft](https://www.planetminecraft.com/project/secret-hidden-buttons-1-20-4/)
+  * [Minecraft Inside (RU)](https://minecraft-inside.ru/166663/)
+
+#### Вариант 1. Установка готового мира (рекомендуется)
+1. Скачайте архив нужной локализации (`EN` или `RU`) со страницы [GitHub Releases](https://github.com/X1miya/Secret-Hidden-Buttons/releases/tag/v2.2.0) или возьмите готовую папку мира из репозитория (`worlds/EN` или `worlds/RU`).
+2. Поместите папку мира в директорию сохранений Minecraft:
+   ```text
+   .minecraft/saves/Secret_Hidden_Buttons_EN/
+   ```
+   *(или `Secret_Hidden_Buttons_RU/` для русской версии)*
+3. Запустите Minecraft 1.21.11 и выберите мир в списке одиночной игры.
+
+#### Вариант 2. Ручная установка датапаков
+1. Если вы настраиваете собственный мир, поместите папку `Secret hidden Buttons` и папки анимаций `* anim` в директорию датапаков вашего мира:
+   ```text
+   .minecraft/saves/<Ваш_Мир>/datapacks/
+   ```
+2. Зайдите в мир и выполните перезагрузку:
+   ```mcfunction
+   /reload
+   ```
+
+---
+
+### 👥 Создатели и авторы
+
+* **Разработка и код:** [X1miya](https://github.com/X1miya)
+* **Студия:** [X1miyaStudio](https://t.me/X1miyaStudio)
+* **Участники проекта:** Endermanshikh, Galax, Lor1odik, Qweezik
+
+---
+
+### 🌐 Социальные сети
+
+<div align="center">
+
+[![YouTube](https://img.shields.io/badge/YouTube-@X1miya-red?style=flat-square&logo=youtube)](https://www.youtube.com/@X1miya)
+[![YouTube Studio](https://img.shields.io/badge/YouTube-@X1miyaStudio-red?style=flat-square&logo=youtube)](https://www.youtube.com/@X1miyaStudio)
+[![Telegram](https://img.shields.io/badge/Telegram-@X1miyaStudio-blue?style=flat-square&logo=telegram)](https://t.me/X1miyaStudio)
+[![Discord](https://img.shields.io/badge/Discord-X1miya_Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/heDhMS8sjR)
+
+</div>
